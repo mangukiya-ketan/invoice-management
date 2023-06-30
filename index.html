@@ -1,1 +1,304 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rvaghasiya</title>
+    <style>
+    /* reset */
+      *
+      {
+      border: 0;
+      box-sizing: content-box;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-style: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      vertical-align: top;
+      outline: none;
+      }
+      .total_piece, .rate, .tot_amount {
+        text-align: right;
+      }
+      /* heading */
+      h1 { font: bold 300% sans-serif; text-align: center; text-transform: unset; }
+      /* table */
+      table { font-size: 75%; table-layout: fixed; width: 100%; }
+      table { border-collapse: separate; border-spacing: 0px; }
+      th, td { border-width: 1px; padding: 0.42em; position: relative; }
+      th, td { border-radius: 0.25em; border-style: solid; }
+      th { background: #EEE; border-color: #BBB; }
+      td { border-color: #DDD; }
+      /* page */
+      html { font: 16px/1 'Open Sans', sans-serif; overflow: auto; padding: 0.5in; }
+      html { background: #999; cursor: default; }
+
+      <!-- body { box-sizing: border-box; margin: 0 auto; overflow: hidden; padding: 0.5in; width: 11in; } -->
+      body { box-sizing: border-box; margin: 0 auto; overflow: hidden; padding: 2% 2% 0% 2%; width: 11in; }
+      body { background: #FFF; border-radius: 1px; box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5); }
+
+      header h1 { background: #FFF; border-radius: 0.25em; color: #000 ; padding: 8px; }
+
+      /* button */
+      .btn-primary {
+          color: #fff;
+          background-color: #007bff;
+          border-color: #007bff;
+      }
+      tr input {width: 100%}
+      .btn {
+          display: inline-block;
+          font-weight: 400;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          border: 1px solid transparent;
+          padding: 0.375rem 0.75rem;
+          font-size: 1rem;
+          line-height: 1.5;
+          border-radius: 0.25rem;
+          transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+      .btn:not(:disabled):not(.disabled) {
+          cursor: pointer;
+      }
+      .btn-group-sm>.btn, .btn-sm {
+          padding: 0.25rem 0.5rem;
+          font-size: .875rem;
+          line-height: 1.5;
+          border-radius: 0.2rem;
+      }
+
+      .bgtext {
+       position: relative;
+      }
+
+       .bgtext:before {
+           margin: 1rem;
+           content: "Rajubhai D. Vaghasiya";
+           position: absolute;
+           transform: rotate(300deg);
+           -webkit-transform: rotate(343deg);
+           color: rgb(187, 182, 182);
+           top: 40%;
+           left: 20%;
+           z-index: 1;
+           font-size: x-large;
+      }
+      @media print {
+      * { -webkit-print-color-adjust: exact; }
+      html { background: none; padding: 0; }
+      body { box-shadow: none; margin: 0; }
+      span:empty { display: none; }
+     .noprint {
+        visibility: hidden;
+     }
+      }
+      @page { margin: 0; }
+    </style>
+  </head>
+	<body  style="border:groove">
+    <div style="border:groove">
+      <p style="text-align:center;margin-bottom:7px"> || શ્રી ૧| || <p>
+      <p style="text-align:center;margin-bottom:7px"> || જય શ્રી ગોપીનાથજી મહારાજ || <p>
+			<h1>Rajubhai D. Vaghasiya</h1>
+      <p style="text-align:center;margin-bottom:7px">GST JOB BILL</p>
+      <p style="text-align:center;margin-bottom:7px"> All Types Of handwork </p>
+    </div>
+    <div>
+      <h4 style="text-align:center;padding:5px"> 60, Gitanager Society, Siganpor, Katargam road Surat-395004. </h4>
+    </div>
+
+		<div style="border:groove;display:flex;flex-wrap:wrap;margin-bottom: 1% ;padding:7px">
+			<div style="margin-right: 10px;width:65%;border-right:groove">
+					<label>Name:</label>
+					<input type="text" style='border-bottom:groove;width:86%'><br/>
+					<label>Address:</label>
+					<input type="text" style='border-bottom:groove;width:84%'><br/>
+					<label>GSTIN:</label>
+					<input type="text" style='border-bottom:groove;width: 86%	'>
+					<label>Brocker:</label>
+					<input type="text" style='border-bottom:groove;'>
+					<label>State: </label>
+					<input type="text" value="Gujarat" style='border-bottom:groove;width:18%;text-align:center'>
+					<label>State Code: </label>
+					<input type="text" value="24" style='border-bottom:groove;width:10%;text-align:center'>
+					<label>GSTIN: </label>
+					<input type='text' style='border-bottom:groove'>
+					<label> PAN NO: </label>
+					<input type='text' style='border-bottom:groove'><br/>
+			</div>
+			<div style="width:30%">
+				<label class="extra_space">Bill No:</label>
+				<input type="text" style='border-bottom:groove;width:79%'><br/>
+				<label class="extra_space">Date:</label>
+				<input type="text" style='border-bottom:groove;width:83%'><br/>
+				<label class="extra_space">P. Ch No:</label>
+				<input type="text" style='border-bottom:groove;width: 74%	'>
+				<label class="extra_space">P. Date:</label>
+				<input type="text" style='border-bottom:groove;width: 78%	'>
+			</div>
+		</div>
+
+			<div  style="border:groove">
+				<div style="border-block-end: groove;" class="bgtext">
+					<table id="table-1">
+						<thead>
+							<tr style="text-align:center">
+								<th style="width:10px">No</th>
+								<th style="width:50%">Particulars</th>
+								<th>HSN/SAC</th>
+								<th>Rate</th>
+								<th>Quantity</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr id="tr_1" class="all-trs">
+								<td><span id="spn_1">1</span></td>
+								<td><input type="text" name="saree_name" id="saree_name_1" style="width:100%"></td>
+								<td><input type="text" name="hsn" id="hsn_1"></td>
+								<td class="td_right"><input type="number" min=1 name="total_piece" id="total_piece_1" class="total_piece" style="width:100%"></td>
+								<td class="td_right"><input type="number" min=1 name="rate" id="rate_1" class="rate" style="width:100%"></td>
+								<td style="text-align:right"><span id="amount_1" class="tot_amount" style="width:100%">0</span></td>
+							</tr>
+							<tr id="tr_2" class="all-trs">
+								<td><span id="spn_2">2</span></td>
+								<td><input type="text" name="saree_name" id="saree_name_2" style="width:100%"></td>
+								<td><input type="text" name="hsn" id="hsn_2"></td>
+								<td class="td_right"><input type="number" min=1 name="total_piece" id="total_piece_2" class="total_piece"></td>
+								<td class="td_right"><input type="number" min=1 name="rate" id="rate_2" class="rate"></td>
+								<td style="text-align:right"><span id="amount_2" class="tot_amount">0</span></td>
+							</tr>
+							<tr id="tr_3" class="all-trs">
+								<td><span id="spn_3">3</span></td>
+								<td><input type="text" name="saree_name" id="saree_name_3" style="width:100%"></td>
+								<td><input type="text" name="hsn" id="hsn_3"></td>
+								<td class="td_right"><input type="number" min=1 name="total_piece" id="total_piece_3" class="total_piece"></td>
+								<td class="td_right"><input type="number" min=1 name="rate" id="rate_3" class="rate"></td>
+								<td style="text-align:right"><span id="amount_3" class="tot_amount">0</span></td>
+							</tr>
+							<tr id="tr_4" class="all-trs">
+								<td><span id="spn_4">4</span></td>
+								<td><input type="text" name="saree_name" id="saree_name_4" style="width:100%"></td>
+								<td><input type="text" name="hsn" id="hsn_4"></td>
+								<td class="td_right"><input type="number" min=1 name="total_piece" id="total_piece_4" class="total_piece"></td>
+								<td class="td_right"><input type="number" min=1 name="rate" id="rate_4" class="rate"></td>
+								<td style="text-align:right"><span id="amount_4" class="tot_amount">0</span></td>
+							</tr>
+							<tr id="tr_5" class="all-trs">
+								<td><span id="spn_5">5</span></td>
+								<td><input type="text" name="saree_name" id="saree_name_5" style="width:100%"></td>
+								<td><input type="text" name="hsn" id="hsn_5"></td>
+								<td class="td_right"><input type="number" min=1 name="total_piece" id="total_piece_5" class="total_piece"></td>
+								<td class="td_right"><input type="number" min=1 name="rate" id="rate_5" class="rate"></td>
+								<td style="text-align:right"><span id="amount_5" class="tot_amount">0</span></td>
+							</tr>
+						</tbody>
+					</table>
+          <input type="button" value="Add" class="btn btn-primary btn-sm add-row noprint" id="add-btn">
+				</div>
+					<!-- <a class="add">+</a> -->
+				<div style="border-block-end: groove;">
+					<div style="width:34%;float: right;">
+						<table style="text-align:right;">
+							<tr>
+								<th style="width: 21%;"><span>TDS</span></th>
+								<td style="width: 10%;"><span id="tds"></span></td>
+							</tr>
+							<tr>
+								<th style="width: 21%;"><span>CGST 2.50%</span></th>
+								<td style="width: 10%;"><span id="cgst"></span></td>
+							</tr>
+							<tr>
+								<th style="width: 21%;"><span>SGST 2.50%</span></th>
+								<td style="width: 10%;"><span id="sgst"></span></td>
+							</tr>
+							<tr>
+								<th style="width: 21%;"><span> Total</span></th>
+								<td style="width: 10%;"><span id="grand_total"></span></td>
+							</tr>
+						</table>
+					</div>
+					<div style="height:8%;width: 57%;padding:4%;border-right: groove;">
+						<label>GSTIN:</label>
+						<input type="text" style='border-bottom:groove;width: 85%'><br/>
+						<label>PAN NO:</label>
+						<input type="text" style='border-bottom:groove;width: 83%'><br/>
+					</div>
+				</div>
+				<div>
+					<div style="width: 34%;height: 10%;text-align: center;float: right;">
+						<h5 style="padding-block:30px"> For Rajubhai D. Vaghasiya</h5>
+						<p style="font-size: small;padding:7px"> Authorised Signature (E.&.O.E)</p>
+					</div>
+					<div style="padding: 9px;border-right: groove;width: 63%;">
+						<h5>Terms and Conditions</h5><br/>
+						<p style="margin-left: 10px;">(1) Goods Once Sold can not be returned</p>
+						<p style="margin-left: 10px;">(2) Interest @24% is chargeable if Payment not made within 10 days.</p>
+						<p style="margin-left: 10px;">(3) Dispute Satted in Surat Cort Only.</p>
+						<p style="margin-left: 10px;">(4) Payment Within............ Day Only.</p>
+					</div>
+				</div>
+			</div>
+      <input type="button" value="Print" class="btn btn-primary noprint" onclick="window.print();">
+
+	</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script>
+    function calculate_grand_total(){
+      var sum = 0
+      $('.tot_amount').each(function () {
+         sum += parseInt($(this).text());
+      });
+      $("#tds").text(sum);
+      cgst = (sum * 2.5) / 100
+      sgst = (sum * 2.5) / 100
+      grand_total = sum + cgst + sgst
+      $("#cgst").text(cgst.toFixed(2))
+      $("#sgst").text(sgst.toFixed(2))
+      $("#grand_total").text(grand_total.toFixed(2))
+    }
+    $(document).ready(function(){
+      $('.add-row').click(function(){
+        last_tr = $("#table-1 tr:last").clone();
+        new_row_num = parseInt(last_tr[0].id.split("_")[1]) + 1;
+        $(last_tr[0]).attr("id", "tr_"+new_row_num)
+        spn = $($(last_tr[0])[0].children[0].children[0])
+        spn.attr("id", "spn_"+new_row_num)
+        spn.text(new_row_num)
+        price_spn = $($(last_tr[0])[0].children[5].children[0])
+        price_spn.attr("id", "amount_" + new_row_num)
+        price_spn.text(0)
+        last_tr.find("input").each(function () {
+          $(this).val('').attr('id', function (_, id) {
+            arr = id.split('_')
+            num = parseInt(arr.pop()) + 1
+            arr.push(num)
+            return arr.join('_')
+          });
+        }).end().appendTo("#table-1");
+        if($('#table-1 tr').length > 30){
+          $('#add-btn').hide()
+        }
+      })
+    })
+
+    $(document).on('change', ".total_piece, .rate", function(){
+      id = this.id.split('_').pop()
+      total_pic = $('#total_piece_' + id).val()
+      rate = $('#rate_' + id).val()
+      $("#amount_"+id).text(total_pic * rate)
+      calculate_grand_total()
+    })
+
+  </script>
+</html>
